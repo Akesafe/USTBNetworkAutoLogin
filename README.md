@@ -37,3 +37,5 @@ chrome版本和chromedriver版本需要对应，否则需要更新driver目录�
 可参考[https://zhuanlan.zhihu.com/p/110274934]()或自行上网搜索下载
 ## 注意
 该脚本没有进程锁，如果你想通过Windows“计划任务”自动运行 **USTBNetwork_AutoLogin.bat** ，请将 **config.yaml** 中的 autorun - enabled 的值设置为false
+
+*By Akesafe.*
