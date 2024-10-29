@@ -3,7 +3,7 @@ username: "423233xx"
 password: "USTBxxxxxxxx"
 
 # 浏览器设置
-headless: true  # 设置为 true 则使用无头模式（即：后台运行）
+headless: false  # 设置为 true 则使用无头模式（即：后台运行）
 driver_path: "driver/chromedriver.exe" # chromedriver文件的放置路径
 url: "http://202.204.48.66"
 
