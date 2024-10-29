@@ -1,0 +1,23 @@
+# 登录配置，输入您的学号和校园网登录账号的密码
+username: "423233xx"
+password: "USTBxxxxxxxx"
+
+# 浏览器设置
+headless: true  # 设置为 true 则使用无头模式（即：后台运行）
+driver_path: "driver/chromedriver.exe" # chromedriver文件的放置路径
+url: "http://202.204.48.66"
+
+# 登录成功判定文本（即：在网页上检测到这几个字说明登录成功）
+login_success_text: "当前余额"
+
+# 自动运行设置（即便这里设置为不自动运行，也可以通过手动为USTBNetwork_AutoLogin.bat文件添加计划任务的方式实现定时运行）
+auto_run:
+  enabled: true      # 设置为 false 则只运行一次
+  interval_hours: 2  # 自动运行的间隔小时数，建议不要小于0.1
+
+# 代理设置
+proxy:
+  enabled: false  # 设置为 true 启用代理
+  type: "socks5"  # 支持 socks5, http, https
+  host: "127.0.0.1"
+  port: "7890"
